@@ -9,9 +9,6 @@ Import the data provided in the `establishments.json` file from your Terminal. N
 
 Within this markdown cell, copy the line of text you used to import the data from your Terminal. This way, future analysts will be able to repeat your process.
 
-```shell
-mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
-
 ## Part 2: Update the Database
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following restaurant "Penang Flavours" to the database.
 
@@ -30,3 +27,4 @@ Use update_many to convert RatingValue to integer numbers.
 These code snippets demonstrate how to set up and update a MongoDB database using Python and the pymongo library. Feel free to modify and adapt them according to your specific needs.
 
 ## Part 3: Exploratory Analysis
+
