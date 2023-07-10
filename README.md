@@ -26,5 +26,34 @@ Use update_many to convert RatingValue to integer numbers.
 
 These code snippets demonstrate how to set up and update a MongoDB database using Python and the pymongo library. Feel free to modify and adapt them according to your specific needs.
 
+# Exploratory Analysis
+
+This repository contains code snippets for performing exploratory analysis on the MongoDB database using Python and the `pymongo` library.
+
 ## Part 3: Exploratory Analysis
+
+In this section, we will perform various queries and analyses on the database. For each question, we will use the following steps:
+
+1. Use `count_documents` to display the number of documents in the result.
+2. Display the first document in the results using `pprint`.
+3. Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
+
+### 1. Establishments with a Hygiene Score of 20
+
+To find the establishments with a hygiene score equal to 20, execute the provided code snippet.
+
+### 2. Establishments in London with RatingValue >= 4
+
+To find the establishments in London with a RatingValue greater than or equal to 4, execute the provided code snippet.
+
+### 3. Top 5 Establishments with RatingValue = 5, Sorted by Lowest Hygiene Score
+
+To find the top 5 establishments with a RatingValue of 5, sorted by the lowest hygiene score and nearest to the new restaurant "Penang Flavours," execute the provided code snippet.
+
+### 4. Establishments in Each Local Authority area with a Hygiene Score of 0
+
+To determine the number of establishments in each Local Authority area with a hygiene score of 0, execute the provided code snippet.
+
+
+
 
